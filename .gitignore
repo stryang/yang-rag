@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Local workspace / tooling
+.idea/
+.claude/
+.codex/
+.omx/
+data/
+node_modules/
+dist/
+build/
+__pycache__/
+.pytest_cache/
+
+# Frontend source exception
+!admin-frontend/src/lib/
+!admin-frontend/src/lib/**
